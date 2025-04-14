@@ -6,3 +6,5 @@ const userDetailRoutes = require("./userDetailRoutes");
 
 router.use("/auth", authRoutes);
 router.use("/user-details", userDetailRoutes);
+
+module.exports = router;
